@@ -1,0 +1,34 @@
+# Sanal ortamlar
+venv/
+.venv/
+env/
+
+# Eğitim derlemi (yerel olarak indirilir, ~5,7 GB)
+corpus.txt
+
+# Derlenmiş yardımcı program (count.cpp'den üretilir)
+count
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Hugging Face / önbellek
+.cache/
+huggingface/
+*.log
+
+# Editör ve işletim sistemi dosyaları
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+QraxAi-Turkish-Tokenizer
